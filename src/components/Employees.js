@@ -21,7 +21,9 @@ import EmployeeRow from "./EmployeeRow";
       </div> */}
 
   
-
+// <EmployeeRow {...employeedata[props.order[0]]} />
+//       <EmployeeRow {...employeedata[props.order[1]]} />
+//       <EmployeeRow {...employeedata[props.order[2]]} />
 
 function Employees(props) {
   return (
@@ -32,9 +34,10 @@ function Employees(props) {
         <h4 className="col-3 text-center" id="salary">Salary</h4>
         <h4 className="col-3 text-center" id="manager">Manager</h4>
       </div>
-      <EmployeeRow {...employeedata[props.order[0]]} />
-      <EmployeeRow {...employeedata[props.order[1]]} />
-      <EmployeeRow {...employeedata[props.order[2]]} />
+      {props.data.map(item => {
+        return <EmployeeRow {...item}/>
+      })}
+      
 
     </div>
   )
