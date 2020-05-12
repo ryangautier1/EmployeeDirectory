@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Ryan Gautier",
+    "role": "Developer",
+    "salary": 1000000,
+    "manager": "Beyonce"
+  },
+  {
+    "name": "Joanna Rivera",
+    "role": "CEO",
+    "salary": 1000001,
+    "manager": "Jesus"
+  },
+  {
+    "name": "Alina Garvey",
+    "role": "President of Recipes",
+    "salary": 1000002,
+    "manager": "Beyonce"
+  }
+]
