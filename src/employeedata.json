@@ -1,20 +1,37 @@
 [
   {
+    "id": 1,
     "name": "Ryan Gautier",
     "role": "Developer",
-    "salary": 1000000,
-    "manager": "Beyonce"
+    "salary": 500000,
+    "manager": "Betty"
   },
   {
+    "id": 2,
     "name": "Joanna Rivera",
     "role": "CEO",
-    "salary": 1000001,
-    "manager": "Jesus"
+    "salary": 100000,
+    "manager": "Alan"
   },
   {
+    "id": 3,
     "name": "Alina Garvey",
-    "role": "President of Recipes",
-    "salary": 1000002,
-    "manager": "Beyonce"
+    "role": "President",
+    "salary": 600000,
+    "manager": "Bill"
+  },
+  {
+    "id": 4,
+    "name": "Kyle Albernaz",
+    "role": "Curling Coach",
+    "salary": 90000,
+    "manager": "Kimmie"
+  },
+  {
+    "id": 5,
+    "name": "Mason Matheny",
+    "role": "Treasurer",
+    "salary": 800000,
+    "manager": "Alina"
   }
 ]
